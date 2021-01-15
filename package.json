@@ -1,0 +1,23 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Learning MERN stack Web App from coding tutorial by Basir",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnav-UofT/Learn-amazona-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnav-UofT/Learn-amazona-MERN/issues"
+  },
+  "homepage": "https://github.com/Arnav-UofT/Learn-amazona-MERN#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

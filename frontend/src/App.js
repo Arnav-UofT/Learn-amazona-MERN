@@ -7,25 +7,24 @@ function App() {
   return (
     <BrowserRouter>
     <div className="grid-container">
-            <header className="row">
-                <div>
-                    <a className="brand" href="/">iNdEx-Link</a>
-                </div>
-                <div>
-                    <a href="/cart">Cart</a>
-                    <a href="/signin">SignIN</a>
-                </div>
-            </header>
-            <main>
-              <Route path='/' component={HomeScreen} exact></Route>
-              <Route path='/product/:id' component={ProductScreen}></Route>
-                
-            </main>
-            <footer className="row center">
-                Reserved by Paras-aMazona
-            </footer>
-        </div>
-        </BrowserRouter>
+        <header className="row">
+            <div>
+                <a className="brand" href="/">Logo-Link</a>
+            </div>
+            <div>
+                <a href="/cart">Cart</a>
+                <a href="/signin">SignIN</a>
+            </div>
+        </header>
+        <main>
+          <Route path='/' component={HomeScreen} exact></Route>
+          <Route path='/product/:id' component={ProductScreen}></Route>
+        </main>
+        <footer className="row center">
+            Reserved by Paras-aMazona
+        </footer>
+    </div>
+    </BrowserRouter>
   );
 }
 
