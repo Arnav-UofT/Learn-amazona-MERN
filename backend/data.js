@@ -16,7 +16,6 @@ const data = {
   ],
   products: [
     {
-      _id: '1',
       name: 'Product 1',
       category: 'Categ-x',
       image: '/images/p1.jpg',
@@ -28,7 +27,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '2',
       name: 'Product 2',
       category: 'Brandname',
       image: '/images/p2.jpg',
@@ -40,7 +38,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '3',
       name: 'Product 3',
       category: 'Testing',
       image: '/images/p3.jpg',
@@ -52,7 +49,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '4',
       name: 'Product 4',
       category: 'Name_BRAND',
       image: '/images/p4.jpg',
@@ -64,7 +60,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '5',
       name: 'Product 5',
       category: 'Prod-Name',
       image: '/images/p5.jpg',
@@ -76,7 +71,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '6',
       name: 'Product 6',
       category: 'B-NAME',
       image: '/images/p6.jpg',
