@@ -239,3 +239,19 @@ img.large {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Checout */
+
+.checkout-steps > div {
+  border-top: 0.3rem grey solid;
+  color: grey;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.checkout-steps > div.active {
+  border-top: 0.3rem orange solid;
+  color: orange;
+  flex: 1;
+  padding: 1rem;
+}

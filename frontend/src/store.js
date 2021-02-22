@@ -10,6 +10,9 @@ const initialState = {
         cartItems: localStorage.getItem('cartItems')
             ? JSON.parse(localStorage.getItem('cartItems'))
             : [],
+        shippingAddress: localStorage.getItem('shippingAddress')
+            ? JSON.parse(localStorage.getItem('shippingAddress'))
+            : { fullName: '', address: '', city: '', postalCode: '', country: '' },
     },
     userSignin: {
         userInfo: localStorage.getItem('userInfo')
