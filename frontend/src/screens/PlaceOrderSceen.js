@@ -6,14 +6,12 @@ import CheckOutSteps from '../components/CheckOutSteps'
 export default function PlaceOrderSceen(props) {
 
     const cart = useSelector((state) => state.cart)
-    console.log(cart)
     if (!cart.paymentMethod) {
         props.history.push('/payment')
     }
 
-    const toPrice = (num) => {
-        Number(num.toFixed(2))
-    }
+    const toPrice = (num) => Number(num.toFixed(2))
+
     cart.itemsPrice = toPrice(
         cart.cartItems.reduce((a, c) => a + c.qty * c.price, 0)
     );
