@@ -1,6 +1,7 @@
-# Shopping Style WebApp in React, using MERN stack ( Mongo, Express, React, Node )
+# Shopping Style WebApp in React MERN stack
 
 Creating a MERN stack Web App from various online open resources and architectures
+( Mongo, Express, React, Node )
 
 - This project supports a production-level development structure for both, Fronten & Backend.
 - Uses Flux architecture (as suited for REST applications, supported by React)
