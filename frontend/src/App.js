@@ -64,7 +64,7 @@ function App() {
           <Route path='/register' component={RegisterScreen}></Route>
         </main>
         <footer className="row center">
-          Reserved by Paras-aMazona
+          Reserved by Paras-market
         </footer>
       </div>
     </BrowserRouter>
