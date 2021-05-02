@@ -4,8 +4,9 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 import { signoutAction } from './actions/userActions';
 import CartScreen from './screens/CartScreen';
 import HomeScreen from './screens/HomeScreen';
+import OrderScreen from './screens/OrderScreen';
 import PaymentScreen from './screens/PaymentScreen';
-import PlaceOrderSceen from './screens/PlaceOrderSceen';
+import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import ProductScreen from './screens/ProductScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import ShippingAddress from './screens/ShippingAddress';
@@ -58,10 +59,11 @@ function App() {
           <Route path='/cart/:id?' component={CartScreen}></Route>
           <Route path='/shipping' component={ShippingAddress}></Route>
           <Route path='/payment' component={PaymentScreen}></Route>
-          <Route path='/placeorder' component={PlaceOrderSceen}></Route>
+          <Route path='/placeorder' component={PlaceOrderScreen}></Route>
 
           <Route path='/signin' component={SigninScreen}></Route>
           <Route path='/register' component={RegisterScreen}></Route>
+          <Route path='/order/:id' component={OrderScreen}></Route>
         </main>
         <footer className="row center">
           Reserved by Paras-market

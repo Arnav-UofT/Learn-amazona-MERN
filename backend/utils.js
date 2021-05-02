@@ -20,7 +20,7 @@ export const isAuth = (req, res, next) => {
         const token = authorization.slice(7, authorization.length) // [Bearer xxxxxx]
 
         jwt.verify(token,
-            process.env.jwt.JWT_SECRET || 'securitysecret',
+            process.env.JWT_SECRET || 'securitysecret',
             (err, decode) => {
                 if (err) {
                     res.status(401).send({ message: 'Invalid Token' })
