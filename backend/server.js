@@ -32,6 +32,9 @@ app.use('/api/users', userRouter)
 app.use('/api/products', productRouter)
 app.use('/api/orders', orderRouter)
 
+app.get('/api/config/paypal', (req, res) => {
+    res.send(process.env.PAYMENT_CLIENT_ID || 'sb')
+})
 app.get('/', (req, res) => {
     res.send('Server Ready!');
 });
